@@ -947,21 +947,25 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int button1=0x7f040034;
+        public static final int contractionStartTime=0x7f040037;
+        public static final int contractionStopTime=0x7f040038;
         public static final int contractionTimeChronometer=0x7f040035;
         public static final int disableHome=0x7f040009;
+        public static final int durationLastContraction=0x7f04003a;
         public static final int edit_query=0x7f040026;
         public static final int fragment_container=0x7f040032;
         public static final int homeAsUp=0x7f040006;
         public static final int imageView1=0x7f040033;
         public static final int listMode=0x7f040002;
-        public static final int menu_settings=0x7f040037;
+        public static final int menu_settings=0x7f04003b;
         public static final int normal=0x7f040001;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
         public static final int textView1=0x7f040036;
+        public static final int timeSinceLastContraction=0x7f040039;
+        public static final int timerButton=0x7f040034;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1046,6 +1050,8 @@ containing a value of this type.
         public static final int app_name=0x7f09000d;
         public static final int hello_world=0x7f09000e;
         public static final int menu_settings=0x7f09000f;
+        public static final int timerStart=0x7f090014;
+        public static final int timerStop=0x7f090013;
     }
     public static final class style {
         public static final int AppTheme=0x7f0a0059;
@@ -2188,7 +2194,7 @@ containing a value of this type.
          */
         public static final int[] SherlockSpinner = {
             0x010100af, 0x01010175, 0x01010176, 0x0101017b,
-            0x01010262, 0x010102ac, 0x010102ad, 0x01010411
+            0x01010262, 0x010102ac, 0x010102ad, 0x0101041f
         };
         /**
           <p>

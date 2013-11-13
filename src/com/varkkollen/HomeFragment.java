@@ -95,7 +95,7 @@ public class HomeFragment extends SherlockFragment {
 			}
 		});
 
-		// Start Button listener
+		// Start Button listener fs
 		timerStopButton.setOnClickListener(new OnClickListener() {
 
 			@Override

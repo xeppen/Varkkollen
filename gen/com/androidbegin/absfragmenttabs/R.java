@@ -789,6 +789,7 @@ containing a value of this type.
         /**  Minimum width of the search view text entry area. 
          */
         public static final int abs__search_view_text_min_width=0x7f07000b;
+        public static final int line_padding=0x7f07000f;
     }
     public static final class drawable {
         public static final int abs__ab_bottom_solid_dark_holo=0x7f020000;
@@ -949,13 +950,12 @@ containing a value of this type.
         public static final int abs__up=0x7f04000b;
         public static final int contractionStartTime=0x7f040037;
         public static final int contractionStopTime=0x7f040038;
-        public static final int contractionTimeChronometer=0x7f040035;
+        public static final int contractionTimeChronometer=0x7f040033;
         public static final int disableHome=0x7f040009;
         public static final int durationLastContraction=0x7f04003a;
         public static final int edit_query=0x7f040026;
         public static final int fragment_container=0x7f040032;
         public static final int homeAsUp=0x7f040006;
-        public static final int imageView1=0x7f040033;
         public static final int listMode=0x7f040002;
         public static final int menu_settings=0x7f04003b;
         public static final int normal=0x7f040001;
@@ -965,7 +965,8 @@ containing a value of this type.
         public static final int tabMode=0x7f040003;
         public static final int textView1=0x7f040036;
         public static final int timeSinceLastContraction=0x7f040039;
-        public static final int timerButton=0x7f040034;
+        public static final int timerStartButton=0x7f040034;
+        public static final int timerStopButton=0x7f040035;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }

@@ -7,21 +7,28 @@
     android:paddingRight="5dp" >
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <Chronometer
+                android:id="@+id/contractionTimeChronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chronometer"
+                android:textSize="55sp" />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/varkkollen_logo" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            android:padding="50dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,27 +36,35 @@
             android:gravity="center_vertical|center_horizontal" >
 
             <Button
-                android:id="@+id/timerButton"
-                android:layout_width="wrap_content"
+                android:id="@+id/timerStartButton"
+                android:layout_width="228dp"
                 android:layout_height="wrap_content"
-                android:text="Starta" />
+                android:paddingBottom="5dp"
+                android:background="#36D040"
+                android:text="Start" />
         </LinearLayout>
-
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal" >
+            android:gravity="center_vertical|center_horizontal" >
 
-            <Chronometer
-                android:id="@+id/contractionTimeChronometer"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/timerStopButton"
+                android:layout_width="228dp"
+                android:paddingTop="5dp"
                 android:layout_height="wrap_content"
-                android:textSize="22sp"
-                android:text="Chronometer" />
+                android:background="#C11919"
+                android:text="Stopp" />
         </LinearLayout>
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#000000" />
+
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="316dp"
             android:layout_height="wrap_content"
             android:background="#bbbbbb"
             android:orientation="vertical" >
@@ -108,6 +123,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="@dimen/line_padding" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -129,6 +150,12 @@
                     android:textColor="@color/black" />
             </LinearLayout>
 
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="@dimen/line_padding" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -146,9 +173,15 @@
                     android:id="@+id/durationLastContraction"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="00:58"
+     		               android:text="00:58"
                     android:textColor="@color/black" />
             </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="#000000"
+                android:padding="@dimen/line_padding" />
         </LinearLayout>
     </LinearLayout>
 
